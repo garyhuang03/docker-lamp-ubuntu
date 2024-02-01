@@ -17,6 +17,6 @@ docker build -t lamp:u20 .
 ```
 3. Run container
 ```
-docker run -d -p 80:80 -name lamp lamp:u20
+docker run -d -p 80:80 --name lamp lamp:u20
 ```
 4. Point browser to: http://localhost and http://localhost/phpmyadmin
